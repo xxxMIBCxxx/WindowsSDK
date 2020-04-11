@@ -1,0 +1,10 @@
+// sample02.rc
+#include <windows.h>
+#include "sample02.h"
+
+// ƒƒjƒ…[
+SAMPLE02 MENU PRELOAD FIXED
+BEGIN
+	MENUITEM "I—¹"			IDM_END
+END
+
