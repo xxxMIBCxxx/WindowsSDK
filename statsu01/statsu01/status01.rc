@@ -1,0 +1,19 @@
+#include <Windows.h>
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "終了(&X)",                    IDM_END
+    END
+    POPUP "オプション(&O)"
+    BEGIN
+        MENUITEM "ステータスバー表示",          IDM_ON
+        MENUITEM "ステータスバー消去",          IDM_OFF
+    END
+END
