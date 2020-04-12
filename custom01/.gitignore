@@ -1,0 +1,14 @@
+.vs/
+x64/
+Debug/
+sample02/Debug/
+sample02/x64/
+*.vcxproj.filters
+*.vcxproj.user
+*.aps
+
+
+
+
+
+
